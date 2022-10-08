@@ -1,0 +1,30 @@
+body
+{
+    background-color: #198754;
+}
+.fixedimg1
+{
+    background-image: url(../images/pexels-vlad-bagacian-3987066.jpg);
+}
+.fixedimag
+{
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+    width: 100vw;
+    height: 50vh;
+}
+.fixedimg2
+{
+    background-image: url(../images/pexels-pixabay-256219.jpg);
+}
+.fixedimag1
+{
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+    width: 100vw;
+    height: 50vh;
+}

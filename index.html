@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>hagar</title>
+</head>
+
+<body>
+  <!-- ------------------------------------------navbar------------------------------------- -->
+  <nav class="navbar navbar-expand-sm bg-success navbar-light fixed-top" style="opacity: 0.8;">
+    <div class="container-fluid">
+      <input type="image" src="images/logo.jpg" class="me-3 rounded-circle" alt="pic" height="40px" width="40px">
+      <a class="navbar-brand text-light" href="#" style="border-right:1px solid rgb(255, 252, 252); padding-right: 10px; font-weight: bold;">Coding</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light "  href="#" role="button" data-bs-toggle="dropdown">About</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+              <li><a class="dropdown-item" href="#">link</a></li>
+              <li><a class="dropdown-item" href="#">link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">More</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light me-2" type="submit">Search</button>
+        </form>
+        <form class="d-flex">
+          <button class="btn btn-outline-light " type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- -------------------------------- Pagination imag-------------------------------- -->
+  
+    
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+    <div class="carousel-inner bg-light">
+      <div class="carousel-item active">
+        <img src="images/1.png" alt="New York" class="d-block w-100" height="550px">
+        <div class="carousel-caption">
+          <h3 class="text-success">Chicago</h3>
+          <button class="btn btn-bg bg-success m-1" type="button">Veiw </button>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.png" alt="New York" class="d-block w-100" height="550px">
+        <div class="carousel-caption">
+          <h3 class="text-success">Chicago</h3>
+          <button class="btn btn-bg bg-success m-1" type="button">Veiw </button>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="images/10.png" alt="New York"class="d-block w-100" height="550px">
+        <div class="carousel-caption">
+          <h3 class="text-success">Chicago</h3>
+          <button class="btn btn-bg bg-success m-1" type="button">Veiw </button>
+        </div> 
+      </div>
+    </div>
+    
+ <!-- Left and right controls/icons -->
+ <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon bg-success"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <span class="carousel-control-next-icon bg-success"></span>
+</button>
+</div>
+
+  <!-- -------------------------------------cards---------------------------------- -->
+  <div class="card p-4 bg-success text-white " style="border-top-left-radius: 0; border-top-right-radius:0 ;">
+    <div class="card-body">
+      <h2 class="card-title">Welcome</h2>
+      <p class="card-text">programming without language and without code.</p>
+      <a href="#" class="btn btn-outline-light mt-4">learn more</a>
+    </div>
+  </div>
+  <!-- ---------------------------------------collaps------------------------------- -->
+<br>
+<h1 class="text-center text-light bg-success p-3 m-0 ">Programming language </h1>
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button btn btn-outline-success collapsed" type="button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        python programming language
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        Python is powerful... and fast, plays well with others,runs everywhere, is friendly &amp; easy to learn, is Open.      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        java programming language
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        javascript programming language
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        JavaScript is a scripting or programming language that allows you to implement complex features on web pages.       </div>
+    </div>
+  </div>
+</div>    
+
+<!-- ---------------------------------------codeing---------------------------------------- -->
+<br>
+<h1 class=" text-center text-light bg-success  p-3 m-0 ">Python is very easy</h1>
+<div class="card bg-light ">
+<div class="card-body">
+  <h4>
+    "try the code below from" 
+    <a href="http://https://www.python.org/shell/"  target="_blank" rel="noopener noreferrer">Here</a>
+  </h4>
+  <div>
+    <buttona type="button" class="btn btn-outline-success m-4" data-bs-placement="Left" data-bs-toggle="tooltip" title="Copy!">Copy!</button>
+  </div>
+    <pre>
+      <code class="text-success" id="mypython">
+        name = input('enter your name: '); print("Hello" + name)
+      </code>
+    </pre>
+  </div>
+</div>
+<h1 class=" text-center text-light bg-success  p-3 m-0 ">Java is very easy</h1>
+<div class="card bg-light ">
+<div class="card-body">
+  <h4>
+    "try the code below from" 
+    <a href="https://www.onlinegdb.com/online_java_compiler"  target="_blank" rel="noopener noreferrer">Here</a>
+  </h4>
+  <div>
+    <buttona type="button" class="btn btn-outline-success m-4" data-bs-placement="Left" data-bs-toggle="tooltip" title="Copy!">Copy!</button>
+  </div>
+    <pre>
+      <code class="text-success" id="mypython">
+        System.out.println("Hello World!");
+      </code>
+    </pre>
+  </div>
+</div>
+<h1 class=" text-center text-light bg-success  p-3 m-0 ">Javascript is very easy</h1>
+<div class="card bg-light ">
+<div class="card-body">
+  <h4>
+    "try the code below from" 
+    <a href="https://www.programiz.com/javascript/online-compiler/"  target="_blank" rel="noopener noreferrer">Here</a>
+  </h4>
+  <div>
+    <buttona type="button" class="btn btn-outline-success m-4" data-bs-placement="Left" data-bs-toggle="tooltip" title="Copy!">Copy!</button>
+  </div>
+    <pre>
+      <code class="text-success" id="mypython">
+        console.log("Welcome to Programiz!");
+      </code>
+    </pre>
+  </div>
+</div>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+  </script>
+  <!-- -------------------------------------background-------------------------------------- -->
+  <div class="fixedimg1 fixedimag">
+
+  </div>
+  <!-- --------------------------Good basic------------------------- -->
+
+  <h1 class=" text-center text-light bg-success  p-3 m-0 ">Good basic</h1>
+ <div class="container-fluid">
+  <div class="row justify-content-around pb-5 " style="background-color: success; border-radius: 7px;">
+    <div class="card  text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <img class="card-img-top" src="images/9.png" alt="Card image cap">
+      <div class="card-body bg-success">
+        <h5 class="text-light">Html5</h5>
+        <p class="card-text"> Html5 from zero to hero.</p>
+        <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+      </div>
+    </div> 
+  
+      <div class="card  text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <img class="card-img-top" src="images/background1 (4).png" alt="Card image cap">
+      <div class="card-body bg-success">
+        <h5 class="text-light">Css3</h5>
+        <p class="card-text">Css3 from zero to hero.</p>
+        <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+      </div>
+    </div> 
+  
+    <div class="card   text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <img class="card-img-top" src="images/background1 (2).png" alt="Card image cap">
+      <div class="card-body  bg-success">
+        <h5 class="text-light">bootstrap</h5>
+        <p class="card-text">Bootstrap from zero to hero.</p>
+        <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+      </div>
+    </div> 
+    
+    <div class="card  text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <img class="card-img-top" src="images/Oops! 404 Error with a broken robot-bro.png" alt="Card image cap">
+      <div class="card-body bg-success">
+        <h5 class="text-light">Java Script</h5>
+        <p class="card-text">Java Script from zero to hero.</p>
+        <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+      </div>
+    </div> 
+    <div class="card   text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+     <img class="card-img-top" src="images/background1(1).png" alt="Card image cap">
+     <div class="card-body bg-success">
+       <h5 class="text-light">Java</h5>
+       <p class="card-text">Java  from zero to hero.</p>
+       <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+     </div>
+   </div>
+   <div class="card   text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+       <img class="card-img-top" src="images/background1 (7).png" alt="Card image cap">
+       <div class="card-body bg-success">
+         <h5 class="text-light">Python</h5>
+         <p class="card-text">Python from zero to hero.</p>
+         <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+       </div>
+     </div> 
+     <div class="card   text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+         <img class="card-img-top" src="images/hand-coding-concept-illustration_114360-8193.jpg" alt="Card image cap">
+         <div class="card-body bg-success">
+           <h5 class="text-light">Json</h5>
+           <p class="card-text">Json from zero to hero.</p>
+           <a href="#" class=" btn btn-outline-light  ">Download The Book</a>
+         </div>
+       </div> 
+  </div>
+  </div>
+  <!-- --------------------------------backgrondimag------------------------------------- -->
+  <div class="fixedimg2 fixedimag1"></div>
+  <!-- -----------------------------------Thanks For-------------------------------- -->
+  <h1 class=" text-center text-light bg-success p-3 m-0 ">Thanks For</h1>
+  <div class="container bg-success">
+    <div class="row justify-content-around pb-5 " style="background-color:success; border-radius: 7px;">
+      <div class="card col-lg-3 col-md-4 col-sm-6 m-4 mt-5"  style="width: 18rem;">
+       <img class="card-img-top" src="images/man1.jpeg" alt="Card image cap">
+       <div class="card-body bg-light">
+        <h5>Eng:Ahmed</h5>
+     </div>
+     </div>
+     <div class="card col-lg-3 col-md-4 col-sm-6 m-4 mt-5"  style="width: 18rem;">
+      <img class="card-img-top" src="images/man2.jpeg" alt="Card image cap">
+      <div class="card-body bg-light">
+        <h5>Eng:Mohmmed</h5>
+    </div>
+    </div>
+    <div class="card col-lg-3 col-md-4 col-sm-6 m-4 mt-5"  style="width: 18rem;">
+      <img class="card-img-top" src="images/man1.jpeg" alt="Card image cap">
+      <div class="card-body bg-light">
+        <h5>Eng:Ahmed</h5>
+    </div>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <!-- ----------------------------------------Join Us----------------------------------- -->
+  <h1 class=" text-center text-light bg-success  p-3 m-0 ">Join Us</h1>
+ <div class="container-fluid">
+<div class="row justify-content-around pb-5 " style="background-color: success; border-radius: 7px;">
+  <div class="card m-3 bg-light" style="width: 18rem;"> 
+  <h6 class="text-center  mb-4">Subscribe Now</h6>
+<input class="myicon mb-2" style="align-self: center; width: 40px;height: 40px;border-radius: 7px;" src="images/free-youtube-logo-icon-2431-thumb.png" type="image" alt="facebook">
+<a href=""class="text-center text-success " >Go To Link</a>
+</div>
+<div class="card m-3 bg-light" style="width: 18rem;"> 
+  <h6 class="text-center mb-4">Follow</h6>
+<input class="myicon mb-3" style="align-self: center; width: 30px;height: 30px;border-radius: 7px;" src="images/download.jpeg" type="image" alt="facebook">
+<a href=""class="text-center text-success " >Go To Link</a>
+</div>
+<div class="card m-3 bg-light" style="width: 18rem;"> 
+  <h6 class="text-center mb-4">Like the page</h6>
+<input class="myicon mb-2" style="align-self: center;  width: 40px;height: 40px;border-radius: 7px;" src="images/Twitter-Emblem.png" type="image" alt="facebook">
+<a href=""class="text-center text-success" >Go To Link</a>
+</div>
+<div class="card m-3 bg-light" style="width: 18rem;"> 
+  <h6 class="text-center mb-4 ">Subscribe Now</h6>
+<input class="myicon mb-2" style="align-self: center; width: 30px;height: 30px;border-radius: 7px; " src="images/free-youtube-logo-icon-2431-thumb.png" type="image" alt="facebook">
+<a href=""class="text-center text-success" >Go To Link</a>
+</div>
+</div>
+ </div>
+ <!-- ---------------------------------------------footer------------------------------------------ -->
+ <footer class="bg-success text-light mt-5 p-2 pb-5 ">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class="border-top my-3">
+        <h5><img src="images/360_F_300245953_Svih1DYJbw4v2t92EhDOTwW4LIqMghmy.jpg"style="align-self: center; width: 30px;height: 30px;border-radius: 50px;" alt="good pic" class="myicon"> Good Company</h5>
+        <hr class="border-top my-3">
+        <address>
+          <p>Tel : 000-000-000</p>
+          <p>Address : EGYPT</p>
+          <p>Fax : 000-000-000</p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top my-3">
+        <h5><img src="images/360_F_300245953_Svih1DYJbw4v2t92EhDOTwW4LIqMghmy.jpg"style="align-self: center; width: 30px;height: 30px;border-radius: 50px;" alt="good pic" class="myicon"> Good Company</h5>
+        <hr class="border-top my-3">
+        <address>
+          <p><a href="" class="text-light" target="_blank">Visit Us</a></p>
+          <p><a href=""class="text-light" target="_blank">Take alook</a></p>
+          <p><a href="" class="text-light" target="_blank">Your health is more important</a></p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top my-3">
+        <h5><img src="images/360_F_300245953_Svih1DYJbw4v2t92EhDOTwW4LIqMghmy.jpg"style="align-self: center; width: 30px;height: 30px;border-radius: 50px;" alt="good pic" class="myicon"> Good Company</h5>
+        <hr class="border-top my-3">
+        <address>
+          <p>Serveices for all </p>
+          <p>Provide best serveices</p>
+          <p>you will be better than before</p>
+        </address>
+      </div>
+      </div>
+      </div>
+      <hr>
+      <span class="text-center d-block text-light">Copyright &copy; 2020 Shaimaa Hassan Elsaeed, Good Company. All rights</span>
+      <hr>
+ </footer>
+<!-- ----------------------------------------------Modal ------------------------------------------------------->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-secondary" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form -->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-secondary">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-secondary">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label text-secondary" for="flexSwitchCheckChecked">Remmember me</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success">Login</button>
+        </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal -->
+</div> <!-- container-fluid div -->
+</body>
+</html>
